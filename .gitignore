@@ -1,0 +1,17 @@
+# Terraform state - contiene IDs reales de la cuenta, nunca se sube
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+tfplan
+*.tfplan
+
+# Archivos de backup de sed
+*.bak
+
+# Variables sensibles si algun dia las agregas
+*.tfvars
+!*.tfvars.example
+
+# macOS
+.DS_Store
